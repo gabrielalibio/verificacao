@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: f1;
+    src: url(Fontes/bebas_neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(Fontes/coolvetica/coolvetica\ rg.otf);
+}
+
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-family: f1;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: f2;
+}

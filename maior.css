@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: god;
+    src: url(Fontes/godofwar/GODOFWAR.TTF);
+}    
+
+@font-face {
+    font-family: f2;
+    src: url(Fontes/bebas_neue/BebasNeue-Regular.ttf);
+} 
+
+@font-face {
+    font-family: f3;
+    src: url(Fontes/coolvetica/coolvetica\ rg.otf);
+} 
+
+body{
+    background-image: url(https://blog.letskuk.com.br/wp-content/uploads/2022/12/diversas-bebidas-alcoolicas-1561478236147_v2_4x3.jpg);
+}
+
+h1{
+    text-align: center;
+    color: coral;
+    font-size: 40px;
+    font-family: god;
+}
+
+h2{
+    text-align: center;
+    color: darkkhaki;
+    font-size: 30px;
+    font-family: f2;
+}
+
+p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: f3;
+}
+
+.img1{
+    width: 400px;
+    height: 300px;
+    margin-left: 250px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+.img2{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: f3;
+}
